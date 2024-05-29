@@ -3,7 +3,7 @@ session_start();
 $servidor = "sql112.infinityfree.com";
 $usuario = "if0_36634606";
 $clave = "iX7kU20Zic";
-$bd = "if0_36634606_semillero";
+$bd = "if0_36634606_semillera";
 $conexion = mysqli_connect($servidor, $usuario, $clave, $bd);
 
 if(isset($_POST["usuario"]) && isset($_POST["contrase"])){
